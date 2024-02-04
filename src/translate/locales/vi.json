@@ -1,0 +1,10 @@
+{
+  "features": {
+    "home": {
+      "title": "Trang chủ"
+    },
+    "thread": {
+      "title": "Chat"
+    }
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "project_info": {
+    "project_number": "355142699675",
+    "project_id": "bestones-2efee",
+    "storage_bucket": "bestones-2efee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:355142699675:android:fb03aeb844bc8d10ee143e",
+        "android_client_info": {
+          "package_name": "com.bestoneggdr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "355142699675-pr0s64psf78suuisbvgcnjvrv76d4aoq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bestoneggdr",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "355142699675-r7rme14irafrd0av6vd6aj0dk5rub0ns.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSzcRgCeDWOkmtcuIxjgFyJcK8BWrrUjw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "355142699675-5gn2j3pdh29mj75d8k7kdeh7cv9fi4n6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "355142699675-2030dm5jb9dilgm2d8btmo75iprskcj5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bestone.ggdr"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:355142699675:android:cc0d0277bca1cddaee143e",
+        "android_client_info": {
+          "package_name": "com.bestones"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "355142699675-r7rme14irafrd0av6vd6aj0dk5rub0ns.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSzcRgCeDWOkmtcuIxjgFyJcK8BWrrUjw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "355142699675-5gn2j3pdh29mj75d8k7kdeh7cv9fi4n6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "355142699675-2030dm5jb9dilgm2d8btmo75iprskcj5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bestone.ggdr"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:355142699675:android:1a02d979c8db21a6ee143e",
+        "android_client_info": {
+          "package_name": "com.bestones.staging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "355142699675-r7rme14irafrd0av6vd6aj0dk5rub0ns.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSzcRgCeDWOkmtcuIxjgFyJcK8BWrrUjw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "355142699675-5gn2j3pdh29mj75d8k7kdeh7cv9fi4n6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "355142699675-2030dm5jb9dilgm2d8btmo75iprskcj5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bestone.ggdr"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

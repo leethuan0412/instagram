@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "514168828573",
+    "project_id": "secretarykim-a29e1",
+    "storage_bucket": "secretarykim-a29e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514168828573:android:604dbf95d53720aa099a74",
+        "android_client_info": {
+          "package_name": "com.secretary.kim.blockodyssey"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4WWg_aOJIrZOKaW5v37EmCsloNUaNKTc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>514168828573-qkdnubtjnm131fcvbtp3uot7g00poduj.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.514168828573-qkdnubtjnm131fcvbtp3uot7g00poduj</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>514168828573-lmomf87453k3171a9da7l4bjvsevddaq.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC2su0razU98kFGinUjnxEdfRaJ-jAB7XQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>514168828573</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.secretary.kim.blockodyssey</string>
+	<key>PROJECT_ID</key>
+	<string>secretarykim-a29e1</string>
+	<key>STORAGE_BUCKET</key>
+	<string>secretarykim-a29e1.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:514168828573:ios:4ee3ecc88d382767099a74</string>
+</dict>
+</plist>
