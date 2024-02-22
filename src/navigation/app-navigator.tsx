@@ -1,17 +1,20 @@
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import {
+  CardStyleInterpolators,
+  createStackNavigator,
+} from '@react-navigation/stack';
 import React, { useEffect } from 'react';
 import ChatScreen from 'src/screens/chat/ChatScreen';
 import StoryScreen from 'src/screens/story';
 import SocketManager, { EVENT_SOCKET } from 'src/services/socket-manager';
 import store from 'src/store';
 import ChatCreator from 'src/store/reducer/chat-reducer';
-import { Colors } from 'src/themes';
 import { ISocketMessage } from 'src/types/chat';
 import Screen, { NavigatorRouter } from './configs/screen';
 import AppBottomTabs from './routes/app-bottom-tabs';
 
 export default function AppNavigator() {
-  const Stack = createNativeStackNavigator();
+  // const Stack = createNativeStackNavigator();
+  const Stack = createStackNavigator();
   useEffect(() => {
     const socket = SocketManager.getInstance();
 
@@ -51,15 +54,24 @@ export default function AppNavigator() {
     };
   }, []);
 
+  // const config = {
+  //   animation: 'spring',
+  //   config: {
+  //     overshootClamping: false,
+  //     restDisplacementThreshold: 0.01,
+  //     restSpeedThreshold: 0.01,
+  //   },
+  // };
+
   return (
     <Stack.Navigator
       screenOptions={{
         headerShadowVisible: false,
-        contentStyle: {
-          backgroundColor: Colors.white,
-        },
+        // contentStyle: {
+        //   backgroundColor: Colors.white,
+        // },
         headerTitleAlign: 'center',
-        orientation: 'portrait',
+        // orientation: 'portrait',
         gestureEnabled: true,
         gestureDirection: 'horizontal',
       }}
@@ -81,6 +93,7 @@ export default function AppNavigator() {
       <Stack.Screen
         options={{
           headerShown: false,
+          cardStyleInterpolator: CardStyleInterpolators.forNoAnimation,
         }}
         name={Screen.STORY}
         component={StoryScreen}

@@ -4,14 +4,14 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { dataNews, dataStory } from 'src/utils/mock';
 import { Header } from './components/Header';
 import News from './components/News';
-import StoryComponent from './components/StoryComponent';
+import Story from './components/Story';
 import { styles } from './styles';
 
 const HomeScreen = () => {
   const [loading, setLoading] = useState(false);
 
   const renderStory = ({ item, index }: any) => {
-    return <StoryComponent data={item} index={index} />;
+    return <Story data={item} index={index} />;
   };
 
   const renderNews = ({ item }: any) => {

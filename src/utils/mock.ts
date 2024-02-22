@@ -9,32 +9,36 @@ export const dataStory = [
     id: 2,
     user_name: 'duc.le',
     avatar: Images.img_story,
-    video: require('../assets/video.mp4'),
     story: Images.img_user,
+    create_at: '23',
   },
   {
     id: 3,
     user_name: '_thuan.le',
     avatar: Images.img_user,
     story: Images.img_user,
+    create_at: '1',
   },
   {
     id: 4,
     user_name: 'new_a',
     avatar: Images.img_story,
     story: Images.img_user,
+    create_at: '12',
   },
   {
     id: 5,
     user_name: 'van.le',
     avatar: Images.img_user,
     story: Images.img_user,
+    create_at: '4',
   },
   {
     id: 6,
     user_name: 'thuan.le',
     avatar: Images.img_user,
     story: Images.img_user,
+    create_at: '6',
   },
 ];
 export const dataNews = [

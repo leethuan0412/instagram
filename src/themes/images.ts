@@ -32,6 +32,8 @@ const Images = {
   ic_send: require('../assets/icons/ic_send.png'),
   ic_cmt: require('../assets/icons/ic_cmt.png'),
   ic_save: require('../assets/icons/ic_save.png'),
+  ic_heart_active: require('../assets/icons/ic_heart_active.png'),
+  ic_exit: require('../assets/icons/ic_exit.png'),
 
   img_user: require('../assets/images/img_user.jpeg'),
   img_story: require('../assets/images/img_story.jpeg'),

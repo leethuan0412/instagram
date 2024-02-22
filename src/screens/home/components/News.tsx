@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import {
   Animated,
   Dimensions,
@@ -24,6 +24,7 @@ const News = (props: Props) => {
   const { data } = props;
   const sliceRef = useRef(null);
   const scrollX = useRef(new Animated.Value(0)).current;
+  const [like, setLike] = useState(false);
 
   const handleOnScroll = (event: any) => {
     Animated.event(
@@ -86,13 +87,17 @@ const News = (props: Props) => {
     );
   };
 
+  const onLike = () => {
+    setLike((pre) => !pre);
+  };
+
   return (
     <View style={styles.view_news} key={data?.id}>
       <View style={[styles.row, { paddingHorizontal: 10, marginBottom: 10 }]}>
         <View style={[styles.row, { flex: 1 }]}>
           <TouchableOpacity
             activeOpacity={0.8}
-            onPress={() => NavigationUtils.navigate(Screen.STORY)}
+            onPress={() => NavigationUtils.navigate(Screen.STORY, { data })}
           >
             <LinearGradient
               colors={['#FBB701', '#E1306C']}
@@ -135,16 +140,20 @@ const News = (props: Props) => {
         ]}
       >
         <View style={styles.row}>
-          <FastImage
-            source={Images.ic_heart}
-            resizeMode="contain"
-            style={styles.heart}
-          />
-          <FastImage
-            source={Images.ic_cmt}
-            resizeMode="contain"
-            style={styles.ic_cmt}
-          />
+          <TouchableOpacity activeOpacity={0.8} onPress={onLike}>
+            <FastImage
+              source={like ? Images.ic_heart_active : Images.ic_heart}
+              resizeMode="contain"
+              style={styles.heart}
+            />
+          </TouchableOpacity>
+          <TouchableOpacity activeOpacity={0.8}>
+            <FastImage
+              source={Images.ic_cmt}
+              resizeMode="contain"
+              style={styles.ic_cmt}
+            />
+          </TouchableOpacity>
           <FastImage
             source={Images.ic_send}
             resizeMode="contain"

@@ -3,7 +3,7 @@ import { StyleSheet, TouchableOpacity, View } from 'react-native';
 import { Tabs } from '../configs/screen';
 import IconHome from './icon-home';
 // import { showBanGuestMode } from 'src/components';
-import { Metrics } from 'src/themes';
+import { Colors, Metrics } from 'src/themes';
 import IconAccount from './icon-account';
 import IconAdd from './icon-add';
 import IconMedia from './icon-media';
@@ -67,7 +67,7 @@ const styles = StyleSheet.create({
   container: {
     flexDirection: 'row',
     justifyContent: 'space-evenly',
-    height: 80,
+    backgroundColor: Colors.white,
   },
   button: {
     flex: 1,

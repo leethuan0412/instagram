@@ -11,14 +11,17 @@ interface Props {
   data: any;
   index: string | number;
 }
-const StoryComponent = (props: Props) => {
+const Story = (props: Props) => {
   const { data, index } = props;
+
   return (
     <View key={data?.id} style={styles.view_item}>
       <TouchableOpacity
         activeOpacity={0.8}
         onPress={() =>
-          data?.story ? NavigationUtils.navigate(Screen.STORY) : undefined
+          data?.story
+            ? NavigationUtils.navigate(Screen.STORY, { data })
+            : undefined
         }
       >
         {data?.story ? (
@@ -58,4 +61,4 @@ const StoryComponent = (props: Props) => {
     </View>
   );
 };
-export default StoryComponent;
+export default Story;

@@ -79,8 +79,8 @@ export const styles = StyleSheet.create({
     fontSize: 18,
   },
   heart: {
-    height: 22,
-    width: 22,
+    height: 24,
+    width: 24,
   },
   view_cmt: {
     paddingHorizontal: 10,
